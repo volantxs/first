@@ -1,8 +1,9 @@
 body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
-  color: #1e272e;
-  background-color: #1e272e ;
+  /* color: #1e272e; */
+  color: black;
+  background-color: black ;
 }
 h2 {
   font-size: 24px;
@@ -14,10 +15,14 @@ h2 {
 h4 {
   font-size: 19px;
   line-height: 1.375em;
-  color: #ffffff;
+  color: black;
   font-weight: 400;
   margin-bottom: 30px;
 } 
+h5 {
+  color: #32ff7e ;
+
+}
 p{
   color: #ffffff;
 } 
@@ -53,19 +58,20 @@ a:visited {
 }
 .topbar {
 
-  background-color: #1e272e;
+  background-color: black;
   color: #32ff7e;
   padding: 17%;
   font-family: Montserrat, sans-serif;
 }
 .container-fluid {
-  background-color: #1e272e;
+  background-color: black;
   padding: 70px 40px;
 }
 .bg-grey {
-  background-color: #1e272e;
+  background-color: black;
   color: #32ff7e;
 }
+
 .logo-small {
   color: #32ff7e;
   font-size: 50px;
@@ -74,9 +80,10 @@ a:visited {
   color: #32ff7e;
   font-size: 200px;
 }
-.thumbnail {
+.thumbnail-right {
   position: absolute;
-    left: 27%;
+    left: 86% ;
+  border: none;
 }
 .carousel-control.right, .carousel-control.left {
   background-image: none; 
@@ -98,6 +105,13 @@ a:visited {
 .item span {
   font-style: normal;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .panel {
   border: 1px solid #05c46b ; 
   border-radius:0 !important;
