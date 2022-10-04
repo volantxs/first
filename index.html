@@ -88,38 +88,39 @@
 <div id="projectOne" class="container bg-grey">
   <h2>Time-series Forecasting for Consumer Price Index (Food & Beverages) of Delhi<br></h2>
   <ul>
-  <img src="images/burgah.png" alt="burgah"  height="370" width="400" class="thumbnail-right slideanim" >
 
 <li><i>Web scraping & exploratory data analysis</i><br><p>Performed data-scraping and data-cleaning to create a dataset of Consumer Price Index 
     for Delhi in various category of goods and Services, which is to be utilized in machine learning model to analyse and predict next 19 months.</p></li>
 <li><i>Time series decomposition & stationarity</i><br><p>
+  <img src="images/burgah.png" alt="burgah"  height="290" width="212" class="thumbnail-right slideanim" >
+
   Decomposed the time series data using Additive Seasonal Decomposition into the following components: Trend, Seasonality & Residue. Conducted Augmented-Dickey Fuller 
   test to check for stationarity. Used first-order differencing to convert non-stationary time series into stationary.</p></li>
 
 <li><i>SARIMAX model & forecasting</i><br><p>Built a SARIMAX model using seasonal_order = (2, 0, 1, 12) to predict the consimer price index 
   for food and beverages goods in Delhi for 2023. Forecast revealed CPI crossing the 400.00 mark which directly disrupts the F&B companies. Data analysis for predicted values suggest that
   there has been an astonishing 85% increase in growth rate for CPI of F&B goods in last 10 years with an annual growth rate of 6%.</p></li>
-</ul><br>
-<h3>Time-series Decomposition|Forecasted data values|Plot of CPI(F&B)|Forecast for stationary and real time-series</h3>
-
+</ul>
 </div>
-<div class= "container-fluid bg-grey">
+<div class= "container bg-grey">
   <div class="slideanim">
-    <img src="images/seasonal_decomp.png" alt="CPI_food" class=" col-sm-6" >
+<h3>Time-series Decomposition | Plot of Consumer Price Index(F&B) and Forecasted Data with SARIMAX </h3>
+    <img src="images/seasonal_decomp.png" alt="CPI_food" class="col-sm-7" >
   </div>
-  <div class="slideanim col-sm-2">
+  <!-- <div class="slideanim col-sm-2">
     <img src="images/data.png" alt="CPI_food_data"  height="440">
     <p></p>
-  </div>
+  </div> -->
   <div class=" slideanim col-sm-4">
-    <img src="images/sarimax.png" alt="CPI_food"  height="216" width="450">
-    <img src="images/sarimax_pred.png" alt="CPI_food"  height="216" width="450" >
+    <img src="images/sarimax.png" alt="CPI_food"  height="210" width="450">
+    <img src="images/sarimax_pred.png" alt="CPI_food"  height="210" width="450" >
   </div>
 </div> 
 
 <!-- Container (Portfolio Section) -->
 <div id="projectTwo" class="container bg-grey">
         <div >
+          <br><br><br><br>
             <h2>DATA ANALYSIS AND DASHBOARD FOR WALMART SALES</h2><br>
             <div><ul>
               <li>Data Retrieval & Manipulation <p>Manipulated data from the given database of Walmart sales (2011 - 2014). Eliminated NaN values,
@@ -129,13 +130,14 @@
                 in what year or occassion whihch inturn is helpful in developing a cunning marketing strategy evolved around a certain state/goods/occassion.
               </p></li>
               </ul>
+              <br>
                <img src="images/Walmart_data_analysis (2)-1.png" alt="walmart" height="500" width="900" class="center slideanim">
             </div>
         </div>
       </div>
   </div><br>
 
-<footer class="container-fluid text-center">
+<footer id="contact" class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
